@@ -1,7 +1,7 @@
 {
-    "name": "eslint-config-matcor",
+    "name": "eslint-config-orc",
     "version": "0.0.1",
-    "description": "Common lint rules for React apps.",
+    "description": "Opionionated React Config (ORC), common lint rules for React apps.",
     "main": "index.js",
     "scripts": {
         "test": "jest",
@@ -22,11 +22,11 @@
         "jest": "^28.1.3",
         "react": "^18.1.0",
         "typescript": "^4.7.4",
-        "eslint-config-matcor": "."
+        "eslint-config-orc": "."
     },
     "eslintConfig": {
 		"extends": [
-		  	"matcor"
+		  	"orc"
 		]
 	}
 }

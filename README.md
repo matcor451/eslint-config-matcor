@@ -1,12 +1,12 @@
 Node package defining standard linting rules for React projects.
 
 To use:
-- Install the package: `npm install eslint-config-matcor`
+- Install the package: `npm install eslint-config-orc`
 - Add the following to your project's `package.json`:
   ```
   "eslintConfig": {
       "extends": [
-        "matcor"
+        "orc"
       ]
     },
   ```
