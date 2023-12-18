@@ -1,4 +1,5 @@
-const { ESLint } = require('eslint')
+import { ESLint } from 'eslint'
+
 const eslint = new ESLint({ overrideConfigFile: 'index.js' })
 
 const getErrorsByMessage = (lintResults, expectedMessage) => (
@@ -7,5 +8,5 @@ const getErrorsByMessage = (lintResults, expectedMessage) => (
 
 module.exports = {
   linter: eslint,
-  getErrorsByMessage: getErrorsByMessage
+  getErrorsByMessage
 }

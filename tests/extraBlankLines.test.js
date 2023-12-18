@@ -1,4 +1,4 @@
-const { linter, getErrorsByMessage } = require('./config.js')
+import { linter, getErrorsByMessage } from './config.js'
 
 const errorMessage = 'More than 1 blank line not allowed'
 
@@ -9,7 +9,7 @@ describe('Test blank lines rule', () => {
       
       const y = 1`
     )
-  
+
     expect(getErrorsByMessage(results, errorMessage)).toHaveLength(0)
   })
 

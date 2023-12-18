@@ -4,7 +4,8 @@
     "description": "Common lint rules for React apps.",
     "main": "index.js",
     "scripts": {
-        "test": "jest"
+        "test": "jest",
+        "lint": "npx eslint ./tests --ext .js --ext .ts"
     },
     "peerDependencies": {
         "eslint": "^8.15.0"
@@ -20,6 +21,12 @@
     "devDependencies": {
         "jest": "^28.1.3",
         "react": "^18.1.0",
-        "typescript": "^4.7.4"
-    }
+        "typescript": "^4.7.4",
+        "eslint-config-matcor": "."
+    },
+    "eslintConfig": {
+		"extends": [
+		  	"matcor"
+		]
+	}
 }

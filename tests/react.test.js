@@ -1,8 +1,8 @@
-const { linter } = require('./config.js')
+import { linter } from './config.js'
 
 describe('Test react files', () => {
   it('test OK', async () => {
-    const results = await linter.lintFiles(["tests/files/reactOK.tsx"])
+    const results = await linter.lintFiles(['tests/files/reactOK.tsx'])
 
     expect(results[0].errorCount).toEqual(0)
   })
