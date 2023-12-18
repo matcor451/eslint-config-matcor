@@ -1,8 +1,8 @@
 {
     "name": "eslint-config-orc",
     "version": "0.0.2",
-    "description": "Opionionated React Config (ORC), common lint rules for React apps.",
-    "keywords": ["eslint", "eslintconfig"],
+    "description": "Opinionated React Config (ORC), common lint rules for React apps.",
+    "keywords": ["eslint", "eslintconfig", "react", "typescript"],
     "main": "index.js",
     "scripts": {
         "test": "jest",

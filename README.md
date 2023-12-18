@@ -1,4 +1,4 @@
-# Opionated React Config (ORC)
+# Opinionated React Config (ORC)
 
 Node package defining standard linting rules for React projects.
 
