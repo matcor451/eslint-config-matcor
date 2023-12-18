@@ -1,4 +1,4 @@
-const { linter, getErrorsByMessage } = require('./config.js');
+const { linter, getErrorsByMessage } = require('./config.js')
 const errorMessage = 'Trailing spaces not allowed'
 
 describe('Test no-trailing-spaces-rule', () => {

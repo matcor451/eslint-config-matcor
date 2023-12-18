@@ -1,4 +1,4 @@
-const { linter, getErrorsByMessage } = require('./config.js');
+const { linter, getErrorsByMessage } = require('./config.js')
 const errorMessage = 'Extra semicolon'
 
 describe('Test semicolon rule', () => {

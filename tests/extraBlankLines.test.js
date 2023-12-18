@@ -1,4 +1,4 @@
-const { linter, getErrorsByMessage } = require('./config.js');
+const { linter, getErrorsByMessage } = require('./config.js')
 
 const errorMessage = 'More than 1 blank line not allowed'
 
