@@ -23,7 +23,7 @@ Node package defining standard linting rules for React projects.
 - Single quotes for strings
 - State and state setter names must be consistent e.g. `data` & `setData`
 - Indention level of 2 spaces
-- Use function expression syntax for defining functions, e.g. const `x = () => {}`
+- Use function expression syntax for defining functions, e.g. `const x = () => {}`
 - Don't allow relative imports to parent folders, e.g. `import x from '../components'`
 - Imports must be ordered alphabetically and grouped as:
   - React imports
