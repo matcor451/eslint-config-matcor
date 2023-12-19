@@ -1,8 +1,16 @@
 {
     "name": "eslint-config-orc",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Opinionated React Config (ORC), common lint rules for React apps.",
     "keywords": ["eslint", "eslintconfig", "react", "typescript"],
+    "homepage": "https://www.npmjs.com/package/eslint-config-orc",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/matcor451/eslint-config-orc"
+    },
+    "author": {
+        "name": "Matt McCormack"
+    },
     "main": "index.js",
     "scripts": {
         "test": "jest",
