@@ -1,4 +1,4 @@
-import { linter, getErrorsByMessage } from './config.js'
+import { getErrorsByMessage, linter } from './config.js'
 
 const errorMessage = 'More than 1 blank line not allowed'
 

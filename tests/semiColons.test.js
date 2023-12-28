@@ -1,4 +1,4 @@
-import { linter, getErrorsByMessage } from './config.js'
+import { getErrorsByMessage, linter } from './config.js'
 const errorMessage = 'Extra semicolon'
 
 describe('Test semicolon rule', () => {

@@ -44,6 +44,9 @@ module.exports = {
       { allowSameFolder: true }
     ],
     'react/hook-use-state': [2],
+    'sort-imports': ['error', {
+      ignoreDeclarationSort: true
+    }],
     'import/order': [
       'error',
       {

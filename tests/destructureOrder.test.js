@@ -1,8 +1,8 @@
-import { linter, getErrorsByRuleId } from './config.js'
-// const errorMessage = 'Expected object keys to be in sorted order. Expected a to be before b.'
+import { getErrorsByRuleId, linter } from './config.js'
+
 const ruleId = 'sort-destructure-keys/sort-destructure-keys'
 
-describe('Test desctructure rule', () => {
+describe('Test destructure rule', () => {
   it('test OK', async () => {
     const results = await linter.lintText('const { a, b } = x')
 
