@@ -29,6 +29,8 @@ module.exports = {
     sourceType: 'module'
   },
   rules: {
+    'react/jsx-uses-react': 'off',
+    'react/react-in-jsx-scope': 'off',
     'no-unused-vars': 'off',
     '@typescript-eslint/no-unused-vars': 'error',
     'no-trailing-spaces': 'error',
