@@ -1,8 +1,13 @@
 {
     "name": "eslint-config-orc",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "description": "Opinionated React Config (ORC), common lint rules for React apps.",
-    "keywords": ["eslint", "eslintconfig", "react", "typescript"],
+    "keywords": [
+        "eslint",
+        "eslintconfig",
+        "react",
+        "typescript"
+    ],
     "homepage": "https://www.npmjs.com/package/eslint-config-orc",
     "repository": {
         "type": "git",
@@ -25,7 +30,8 @@
         "eslint-config-react-app": "^7.0.1",
         "eslint-config-standard": "^17.0.0",
         "eslint-plugin-no-relative-import-paths": "^1.4.0",
-        "eslint-plugin-react": "^7.29.4"
+        "eslint-plugin-react": "^7.29.4",
+        "eslint-plugin-sort-destructure-keys": "^1.5.0"
     },
     "devDependencies": {
         "@babel/preset-env": "^7.23.6",

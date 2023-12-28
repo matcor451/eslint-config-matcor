@@ -6,7 +6,12 @@ const getErrorsByMessage = (lintResults, expectedMessage) => (
   lintResults[0].messages.filter(message => message.message.includes(expectedMessage))
 )
 
+const getErrorsByRuleId = (lintResults, ruleId) => (
+  lintResults[0].messages.filter(message => message.ruleId === ruleId)
+)
+
 module.exports = {
   linter: eslint,
-  getErrorsByMessage
+  getErrorsByMessage,
+  getErrorsByRuleId
 }

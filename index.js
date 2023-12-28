@@ -18,7 +18,8 @@ module.exports = {
   ],
   plugins: [
     '@typescript-eslint',
-    'no-relative-import-paths'
+    'no-relative-import-paths',
+    'sort-destructure-keys'
   ],
   parser: '@typescript-eslint/parser',
   parserOptions: {
@@ -37,6 +38,7 @@ module.exports = {
     'max-len': ['error', { code: 120 }],
     'func-style': ['error', 'expression'],
     'import/no-relative-parent-imports': 'error',
+    'sort-destructure-keys/sort-destructure-keys': 'error',
     'no-relative-import-paths/no-relative-import-paths': [
       'warn',
       { allowSameFolder: true }
